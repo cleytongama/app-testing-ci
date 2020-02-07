@@ -1,0 +1,14 @@
+{
+  "name": "app-testing-ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cgama-dev/app-testing-ci.git",
+  "author": "Cleyton Gama <cleytongama@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

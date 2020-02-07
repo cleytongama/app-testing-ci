@@ -6,9 +6,11 @@
   "author": "Cleyton Gama <cleytongama@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "jest"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jest": "^25.1.0"
   }
 }

@@ -1,5 +1,17 @@
+require('dotenv').config()
 const express = require('express')
 
 const app = express()
 
-app.listen(3000, () => console.log("Running ..."))
+const port = process.env.PORT || 3000
+
+
+app.get('/', (req, res) => {
+    res.send('Start app...')
+})
+
+app.get('/users', (req, res) => {
+    res.send('list users')
+})
+
+app.listen(port, () => console.log(`Runinng ${new Date()} :: PORT":: ${port}`))
